@@ -11,6 +11,7 @@
    Yes, because this is a small-scale feature that depends only on itself.
 
 4. What do you expect to happen if we run our puppeteer tests with the field “headless” set to true?
+   It would run all the tests, but not display them visually.
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
-
+    It would include a directive to click on the settings button
